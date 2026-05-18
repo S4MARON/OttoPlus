@@ -1,0 +1,13 @@
+{
+  "apiUrl": "https://api.openai.com/v1/chat/completions",
+  "apiKey": "sk-your-openai-api-key-here",
+  "model": "gpt-3.5-turbo",
+  "maxTokens": 300,
+  "temperature": 0.8,
+  "enableCheckmarks": true,
+  "maxContextMessages": 10,
+  "checkmarkSymbol": "☐",
+  "checkedSymbol": "☑",
+  "languageStyle": "medieval_german",
+  "useTheeThous": false
+}

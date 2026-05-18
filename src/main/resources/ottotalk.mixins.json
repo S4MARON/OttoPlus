@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.ottotalk.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "ottoplus-refmap.json",
+  "client": [
+    "ChatHudMixin",
+    "ChatScreenMixin",
+    "CommandSuggestorMixin",
+    "PlayerEntityRendererMixin",
+    "PlayerListEntryMixin",
+    "DrawContextFillMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

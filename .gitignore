@@ -1,0 +1,54 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+*.launch
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.vscode/
+.settings/
+.classpath
+.project
+
+# ai tooling
+.claude/
+.windsurf/
+.cursor/
+.aider*
+
+# fabric
+run/
+runs/
+*.log
+
+# os
+.DS_Store
+Thumbs.db
+
+# java
+*.class
+hs_err_*.log
+replay_*.log
+
+# python (alte tools, falls mal wieder welche dazukommen)
+__pycache__/
+*.pyc
+
+# local configs mit echten keys (NIEMALS committen)
+config-gemini.json
+config-local.json
+ottotalk.json
+
+# sonstiges
+*.bak
+*.swp
+sources.txt

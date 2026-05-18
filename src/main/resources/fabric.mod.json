@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ottotalk",
+  "version": "${version}",
+  "name": "OTTOTALK",
+  "description": "OTTOTALK Mod für Ottonien.com",
+  "authors": [
+    "RUMPL3R"
+  ],
+  "license": "MIT",
+  "icon": "assets/ottotalk/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ottotalk.OttoTalkClient"
+    ]
+  },
+  "mixins": [
+    "ottotalk.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
